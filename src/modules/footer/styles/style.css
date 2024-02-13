@@ -1,0 +1,25 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  height: 400px;
+  padding: 0 40px;
+}
+
+.footer__contact-info {
+  background-color: red;
+  width: 45vw;
+}
+.footer__contact-form {
+  width: 45vw;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer__contact-item {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
