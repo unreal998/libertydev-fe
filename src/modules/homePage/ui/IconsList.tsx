@@ -6,7 +6,7 @@ import {
   FaInstagram,
 } from "react-icons/fa6";
 
-function IconsList() {
+const IconsList = () => {
   return (
     <ul className={styles.icon_box}>
       <li>
@@ -23,6 +23,6 @@ function IconsList() {
       </li>
     </ul>
   );
-}
+};
 
 export default IconsList;

@@ -5,7 +5,7 @@ import styles from "./Hero.module.css";
 import IconsList from "../ui/IconsList";
 import HeroBtn from "../ui/HeroBtn";
 
-function Hero() {
+const Hero = () => {
   const x = useMotionValue(0);
   const y = useMotionValue(0);
 
@@ -62,6 +62,6 @@ function Hero() {
       </div>
     </div>
   );
-}
+};
 
 export default Hero;

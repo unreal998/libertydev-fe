@@ -1,11 +1,11 @@
 import styles from "./Services.module.css";
 
-function Services() {
+const Services = () => {
   return (
     <div className={styles.box}>
       <div></div>
     </div>
   );
-}
+};
 
 export default Services;
